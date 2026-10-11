@@ -24,7 +24,6 @@ public class IdempotencyKey {
     private Instant createdAt;
 
     protected IdempotencyKey() {
-        // required by JPA
     }
 
     public IdempotencyKey(String key, String requestHash, Integer responseStatus, String responseBody) {

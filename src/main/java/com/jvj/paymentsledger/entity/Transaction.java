@@ -32,7 +32,6 @@ public class Transaction {
     private Instant createdAt;
 
     protected Transaction() {
-        // required by JPA
     }
 
     public Transaction(Account fromAccount, Account toAccount, BigDecimal amount, TransactionStatus status) {

@@ -29,7 +29,6 @@ public class Account {
     private Instant updatedAt;
 
     protected Account() {
-        // required by JPA
     }
 
     public Account(String accountNumber, String ownerName, BigDecimal balance) {
